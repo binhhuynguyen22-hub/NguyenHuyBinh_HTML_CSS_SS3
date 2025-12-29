@@ -1,38 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Thông Tin</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Họ và tên</label>
-        <input type="text"><br><br>
-        <label for="">Email</label>
-        <input type="email"><br><br>
-        <label for="">Ngày sinh</label>
-        <input type="date"><br><br>
-        <label for="">Giới tính</label>
-        <input type="radio" name="gender" id="gender">Nam
-        <input type="radio" name="gender" id="gender">Nữ <br><br>
-        <label for="">Số điện thoại</label>
-        <input type="tel"><br><br>
-        <label for="">Chuyên ngành</label>
-        <input type="text"><br><br>
-        <label for="">Năm nhập học</label>
-        <input type="number"><br><br>
-        <label for="">Điểm GPA</label>
-        <input type="number"><br><br>
-        <label for="">Địa chỉ</label>
-        <textarea name="" id="" cols="25" rows="5"></textarea><br><br>
-        <label for="">Lớp học</label>
-        <select name="" id="">
-            <option value="">Lớp 1</option>
-        </select><br><br>
-        <label for="">Ngày đăng kí học</label>
-        <input type="datetime-local"><br><br>
-        <input type="button" value="Gửi thông tin">
-    </form>
+
+<form action="">
+    <table cellpadding="6">
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="email"></td>
+        </tr>
+
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="gender" value="nam"> Nam
+                <input type="radio" name="gender" value="nu"> Nữ
+            </td>
+        </tr>
+
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="tel"></td>
+        </tr>
+
+        <tr>
+            <td>Chuyên ngành:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Năm nhập học:</td>
+            <td><input type="number" min="1990" max="2025"></td>
+        </tr>
+
+        <tr>
+            <td>Điểm GPA:</td>
+            <td><input type="number" min="0" max="4" step="0.01"></td>
+        </tr>
+
+        <tr>
+            <td>Địa chỉ:</td>
+            <td>
+                <textarea cols="25" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Lớp học:</td>
+            <td>
+                <select>
+                    <option>Lớp 1</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ngày đăng ký học:</td>
+            <td><input type="datetime-local"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Gửi thông tin">
+            </td>
+        </tr>
+    </table>
+</form>
+
 </body>
 </html>

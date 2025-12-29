@@ -1,47 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đăng ký hội viên</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Họ và tên</label>
-        <input type="text"><br>
-        <label for="">Ngày sinh</label>
-        <input type="date"><br>
-        <label for="">Giới tính</label>
-        <input type="radio" name="gender">nam
-        <input type="radio" name="gender">nữ <br>
-        <label for="">Số điện thoại</label>
-        <input type="tel"> <br>
-        <label for="">Email</label>
-        <input type="email"><br>
-        <label for="">Tên công ty</label>
-        <input type="text"><br>
-        <label for="">Vai trò trong công ty</label>
-        <select name="" id="">
-            <option value="">Giám đốc điều hành(CEO)</option>
-        </select><br>
-        <label for="">Quy mô công ty</label>
-        <select name="" id="">
-            <option value="">Doanh nghiệp nhỏ</option>
-        </select><br>
-        <label for="">Ngành nghề công ty</label>
-        <input type="text"><br>
-        <label for="">Lý do tham gia câu lạc bộ</label>
-        <textarea name="" id=""></textarea> <br>
-        <label for="">Kinh nghiệm lãnh đạo</label>
-        <textarea name="" id=""></textarea><br>
-        <label for="">Mục tiêu khi tham gia câu lạc bộ</label>
-        <textarea name="" id=""></textarea><br>
-        <label for="">Chương trình sự kiện mong muốn tham gia</label>
-        <input type="checkbox">Networking <input type="checkbox">
-        <input type="checkbox">Hội thảo <br>
-        <label for="">Đăng kí nhận bản tin: </label>
-        <input type="checkbox">Có <br>
-        <input type="submit" value="Đăng ký hội viên">
-        </form>
+
+<form action="">
+    <table cellpadding="6">
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="gender"> Nam
+                <input type="radio" name="gender"> Nữ
+            </td>
+        </tr>
+
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="tel"></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="email"></td>
+        </tr>
+
+        <tr>
+            <td>Tên công ty:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Vai trò trong công ty:</td>
+            <td>
+                <select>
+                    <option>Giám đốc điều hành (CEO)</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Quy mô công ty:</td>
+            <td>
+                <select>
+                    <option>Doanh nghiệp nhỏ</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ngành nghề công ty:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Lý do tham gia câu lạc bộ:</td>
+            <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Kinh nghiệm lãnh đạo:</td>
+            <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Mục tiêu khi tham gia câu lạc bộ:</td>
+            <td><textarea rows="3" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Chương trình sự kiện mong muốn:</td>
+            <td>
+                <input type="checkbox"> Networking
+                <input type="checkbox"> Hội thảo
+            </td>
+        </tr>
+
+        <tr>
+            <td>Đăng ký nhận bản tin:</td>
+            <td><input type="checkbox"> Có</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Đăng ký hội viên">
+            </td>
+        </tr>
+    </table>
+</form>
+
 </body>
 </html>
